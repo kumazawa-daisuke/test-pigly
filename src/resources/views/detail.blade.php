@@ -8,7 +8,7 @@
 <main>
   <div class="edit-box">
     <h2 class="form-title">Weight Log</h2>
-    <form method="POST" action="{{ route('weight_logs.update', ['weightLogId' => $log->id]) }}">
+    <form method="POST" action="{{ route('weight_logs.update', ['weightLogId' => $log->id]) }}" novalidate>
       @csrf
       <div class="form-group">
         <label for="date">日付</label>

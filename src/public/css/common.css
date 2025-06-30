@@ -1,0 +1,50 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    background: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    border-bottom: 1px solid #ececec;
+    background: #fff;
+}
+
+.logo {
+    font-size: 32px;
+    font-family: 'Georgia', serif;
+    color: #d88fd2;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header-right {
+    display: flex;
+    gap: 12px;
+}
+
+.header-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 7px;
+    border: 1px solid #d3d3d3;
+    background: #f8f8f8;
+    color: #222;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.icon-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    vertical-align: middle;
+}

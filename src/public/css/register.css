@@ -1,0 +1,97 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.background {
+    background: linear-gradient(-45deg, #f9d3f3, #fbc8d4, #d0c3f7);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-box {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #eb8aec;
+    font-family: 'Georgia', serif;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.title-register {
+    font-size: 24px;
+    color: #333;
+    font-family: 'Hiragino Mincho Pro', serif;
+    margin: 5px auto;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #333;
+    font-family: 'Hiragino Mincho Pro', serif;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+    font-size: 14px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.next-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #b89df4, #f7a6d1);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70%;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+.login-link {
+    margin-top: 20px;
+    color: #5a91d6;
+    font-size: 13px;
+}

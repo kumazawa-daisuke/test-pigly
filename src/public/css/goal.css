@@ -1,0 +1,84 @@
+main {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-box {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(220, 210, 235, 0.06);
+    padding: 40px;
+    min-width: 350px;
+    max-width: 95vw;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.input-row input[type="number"] {
+    width: 300px;
+    font-size: 16px;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-row .unit {
+    font-size: 15px;
+    min-width: 22px;
+}
+
+.form__error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-bottom: 18px;
+    margin-left: 30px;
+    text-align:left;
+}
+
+.form-actions {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    margin-top:32px;
+}
+
+.back-btn {
+    background: #e4e1df;
+    color: #222;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 0;
+    width: 180px;
+    box-shadow: 0 4px 0 #dedcdc;
+    cursor: pointer;
+}
+
+.update-btn {
+    background: linear-gradient(to right, #b89df4, #f7a6d1);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 0;
+    width: 180px;
+    cursor: pointer;
+}

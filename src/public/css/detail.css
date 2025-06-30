@@ -1,0 +1,143 @@
+main {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-box {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(220, 210, 235, 0.06);
+    padding: 30px;
+    width: 540px;
+    max-width: 97vw;
+    margin-top: 30px;
+}
+
+.form-title {
+    font-size: 26px;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.input-unit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.input-unit input[type="number"] {
+    width: 100%;
+    padding: 9px 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.input-unit .unit {
+    font-size: 14px;
+    min-width: 22px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 9px 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[readonly] {
+    background: #fafafa;
+    color: #888;
+}
+
+textarea {
+    width: 100%;
+    padding: 11px 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 58px;
+    background: #fff;
+}
+
+.form__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.form-actions {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.back-btn {
+    background: #e4e1df;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 130px;
+    text-align: center;
+    box-shadow: 0 4px 0 #dedcdc;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.update-btn {
+    background: linear-gradient(to right, #b89df4, #f7a6d1);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 130px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 22px;
+    color: #e88585;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+}
+
+.delete-btn img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: auto;
+}

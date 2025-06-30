@@ -17,6 +17,16 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
+    public function weightLogs()
+    {
+        return $this->hasMany(WeightLog::class);
+    }
+
+    public function weightTarget()
+    {
+        return $this->hasOne(WeightTarget::class);
+    }
+    
     protected $fillable = [
         'name',
         'email',

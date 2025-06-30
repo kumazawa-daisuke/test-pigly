@@ -1,7 +1,7 @@
 # Pigly
 ## 環境構築
 ### Dockerビルド
-1. git clone リンク
+1. git clone git@github.com:kumazawa-daisuke/test-pigly.git
 2. DockerDesktopアプリを立ち上げる
 3. docker-compose up -d --build
 ### Laravel環境構築
